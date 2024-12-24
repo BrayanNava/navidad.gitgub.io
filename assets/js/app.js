@@ -544,7 +544,7 @@ function win(winningSpin, winValue, betTotal){
 			nSpan.setAttribute('class', 'nSpan');
 				let nsnumber = document.createElement('span');
 				nsnumber.setAttribute('class', 'nsnumber');
-				nsnumber.style.cssText = (numRed.includes(winningSpin))? 'color:red' : 'color:black';
+				nsnumber.style.cssText = (numRed.includes(winningSpin))? 'color:Rojo' : 'color:Negro';
 				nsnumber.innerText = winningSpin;
 				nSpan.append(nsnumber);
 				let nsTxt = document.createElement('span');
